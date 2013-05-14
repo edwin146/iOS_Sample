@@ -23,7 +23,7 @@
     
     
     
-    int userAge = 19 ;
+    int userAge = 10 ;
     int userAgeLimit = 18 ;
     
     char userSex = 'G';
