@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		816AC4A51741A66C0072835E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816AC4A41741A66C0072835E /* UIKit.framework */; };
+		816AC4A71741A66C0072835E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816AC4A61741A66C0072835E /* Foundation.framework */; };
+		816AC4A91741A66C0072835E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816AC4A81741A66C0072835E /* CoreGraphics.framework */; };
+		816AC4AF1741A66C0072835E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 816AC4AD1741A66C0072835E /* InfoPlist.strings */; };
+		816AC4B11741A66C0072835E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 816AC4B01741A66C0072835E /* main.m */; };
+		816AC4B51741A66C0072835E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 816AC4B41741A66C0072835E /* AppDelegate.m */; };
+		816AC4B71741A66C0072835E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 816AC4B61741A66C0072835E /* Default.png */; };
+		816AC4B91741A66C0072835E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 816AC4B81741A66C0072835E /* Default@2x.png */; };
+		816AC4BB1741A66C0072835E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 816AC4BA1741A66C0072835E /* Default-568h@2x.png */; };
+		816AC4BE1741A66C0072835E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 816AC4BD1741A66C0072835E /* ViewController.m */; };
+		816AC4C11741A66C0072835E /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 816AC4BF1741A66C0072835E /* ViewController_iPhone.xib */; };
+		816AC4C41741A66C0072835E /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 816AC4C21741A66C0072835E /* ViewController_iPad.xib */; };
+		816AC4CC1741A66C0072835E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816AC4CB1741A66C0072835E /* SenTestingKit.framework */; };
+		816AC4CD1741A66C0072835E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816AC4A41741A66C0072835E /* UIKit.framework */; };
+		816AC4CE1741A66C0072835E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816AC4A61741A66C0072835E /* Foundation.framework */; };
+		816AC4D61741A66D0072835E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 816AC4D41741A66D0072835E /* InfoPlist.strings */; };
+		816AC4D91741A66D0072835E /* ChicoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 816AC4D81741A66D0072835E /* ChicoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		816AC4CF1741A66D0072835E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 816AC4991741A66C0072835E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 816AC4A01741A66C0072835E;
+			remoteInfo = Chico;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		816AC4A11741A66C0072835E /* Chico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chico.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		816AC4A41741A66C0072835E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		816AC4A61741A66C0072835E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		816AC4A81741A66C0072835E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		816AC4AC1741A66C0072835E /* Chico-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Chico-Info.plist"; sourceTree = "<group>"; };
+		816AC4AE1741A66C0072835E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		816AC4B01741A66C0072835E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		816AC4B21741A66C0072835E /* Chico-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Chico-Prefix.pch"; sourceTree = "<group>"; };
+		816AC4B31741A66C0072835E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		816AC4B41741A66C0072835E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		816AC4B61741A66C0072835E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		816AC4B81741A66C0072835E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		816AC4BA1741A66C0072835E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		816AC4BC1741A66C0072835E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		816AC4BD1741A66C0072835E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		816AC4C01741A66C0072835E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		816AC4C31741A66C0072835E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		816AC4CA1741A66C0072835E /* ChicoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChicoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		816AC4CB1741A66C0072835E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		816AC4D31741A66D0072835E /* ChicoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChicoTests-Info.plist"; sourceTree = "<group>"; };
+		816AC4D51741A66D0072835E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		816AC4D71741A66D0072835E /* ChicoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChicoTests.h; sourceTree = "<group>"; };
+		816AC4D81741A66D0072835E /* ChicoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChicoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		816AC49E1741A66C0072835E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816AC4A51741A66C0072835E /* UIKit.framework in Frameworks */,
+				816AC4A71741A66C0072835E /* Foundation.framework in Frameworks */,
+				816AC4A91741A66C0072835E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816AC4C61741A66C0072835E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816AC4CC1741A66C0072835E /* SenTestingKit.framework in Frameworks */,
+				816AC4CD1741A66C0072835E /* UIKit.framework in Frameworks */,
+				816AC4CE1741A66C0072835E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		816AC4981741A66C0072835E = {
+			isa = PBXGroup;
+			children = (
+				816AC4AA1741A66C0072835E /* Chico */,
+				816AC4D11741A66D0072835E /* ChicoTests */,
+				816AC4A31741A66C0072835E /* Frameworks */,
+				816AC4A21741A66C0072835E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		816AC4A21741A66C0072835E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				816AC4A11741A66C0072835E /* Chico.app */,
+				816AC4CA1741A66C0072835E /* ChicoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		816AC4A31741A66C0072835E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				816AC4A41741A66C0072835E /* UIKit.framework */,
+				816AC4A61741A66C0072835E /* Foundation.framework */,
+				816AC4A81741A66C0072835E /* CoreGraphics.framework */,
+				816AC4CB1741A66C0072835E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		816AC4AA1741A66C0072835E /* Chico */ = {
+			isa = PBXGroup;
+			children = (
+				816AC4B31741A66C0072835E /* AppDelegate.h */,
+				816AC4B41741A66C0072835E /* AppDelegate.m */,
+				816AC4BC1741A66C0072835E /* ViewController.h */,
+				816AC4BD1741A66C0072835E /* ViewController.m */,
+				816AC4BF1741A66C0072835E /* ViewController_iPhone.xib */,
+				816AC4C21741A66C0072835E /* ViewController_iPad.xib */,
+				816AC4AB1741A66C0072835E /* Supporting Files */,
+			);
+			path = Chico;
+			sourceTree = "<group>";
+		};
+		816AC4AB1741A66C0072835E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				816AC4AC1741A66C0072835E /* Chico-Info.plist */,
+				816AC4AD1741A66C0072835E /* InfoPlist.strings */,
+				816AC4B01741A66C0072835E /* main.m */,
+				816AC4B21741A66C0072835E /* Chico-Prefix.pch */,
+				816AC4B61741A66C0072835E /* Default.png */,
+				816AC4B81741A66C0072835E /* Default@2x.png */,
+				816AC4BA1741A66C0072835E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		816AC4D11741A66D0072835E /* ChicoTests */ = {
+			isa = PBXGroup;
+			children = (
+				816AC4D71741A66D0072835E /* ChicoTests.h */,
+				816AC4D81741A66D0072835E /* ChicoTests.m */,
+				816AC4D21741A66D0072835E /* Supporting Files */,
+			);
+			path = ChicoTests;
+			sourceTree = "<group>";
+		};
+		816AC4D21741A66D0072835E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				816AC4D31741A66D0072835E /* ChicoTests-Info.plist */,
+				816AC4D41741A66D0072835E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		816AC4A01741A66C0072835E /* Chico */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816AC4DC1741A66D0072835E /* Build configuration list for PBXNativeTarget "Chico" */;
+			buildPhases = (
+				816AC49D1741A66C0072835E /* Sources */,
+				816AC49E1741A66C0072835E /* Frameworks */,
+				816AC49F1741A66C0072835E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chico;
+			productName = Chico;
+			productReference = 816AC4A11741A66C0072835E /* Chico.app */;
+			productType = "com.apple.product-type.application";
+		};
+		816AC4C91741A66C0072835E /* ChicoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816AC4DF1741A66D0072835E /* Build configuration list for PBXNativeTarget "ChicoTests" */;
+			buildPhases = (
+				816AC4C51741A66C0072835E /* Sources */,
+				816AC4C61741A66C0072835E /* Frameworks */,
+				816AC4C71741A66C0072835E /* Resources */,
+				816AC4C81741A66C0072835E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				816AC4D01741A66D0072835E /* PBXTargetDependency */,
+			);
+			name = ChicoTests;
+			productName = ChicoTests;
+			productReference = 816AC4CA1741A66C0072835E /* ChicoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		816AC4991741A66C0072835E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Edwin Pratjipto";
+			};
+			buildConfigurationList = 816AC49C1741A66C0072835E /* Build configuration list for PBXProject "Chico" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 816AC4981741A66C0072835E;
+			productRefGroup = 816AC4A21741A66C0072835E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				816AC4A01741A66C0072835E /* Chico */,
+				816AC4C91741A66C0072835E /* ChicoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		816AC49F1741A66C0072835E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816AC4AF1741A66C0072835E /* InfoPlist.strings in Resources */,
+				816AC4B71741A66C0072835E /* Default.png in Resources */,
+				816AC4B91741A66C0072835E /* Default@2x.png in Resources */,
+				816AC4BB1741A66C0072835E /* Default-568h@2x.png in Resources */,
+				816AC4C11741A66C0072835E /* ViewController_iPhone.xib in Resources */,
+				816AC4C41741A66C0072835E /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816AC4C71741A66C0072835E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816AC4D61741A66D0072835E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		816AC4C81741A66C0072835E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		816AC49D1741A66C0072835E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816AC4B11741A66C0072835E /* main.m in Sources */,
+				816AC4B51741A66C0072835E /* AppDelegate.m in Sources */,
+				816AC4BE1741A66C0072835E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816AC4C51741A66C0072835E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816AC4D91741A66D0072835E /* ChicoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		816AC4D01741A66D0072835E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 816AC4A01741A66C0072835E /* Chico */;
+			targetProxy = 816AC4CF1741A66D0072835E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		816AC4AD1741A66C0072835E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				816AC4AE1741A66C0072835E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		816AC4BF1741A66C0072835E /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				816AC4C01741A66C0072835E /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		816AC4C21741A66C0072835E /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				816AC4C31741A66C0072835E /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		816AC4D41741A66D0072835E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				816AC4D51741A66D0072835E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		816AC4DA1741A66D0072835E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		816AC4DB1741A66D0072835E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		816AC4DD1741A66D0072835E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chico/Chico-Prefix.pch";
+				INFOPLIST_FILE = "Chico/Chico-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		816AC4DE1741A66D0072835E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chico/Chico-Prefix.pch";
+				INFOPLIST_FILE = "Chico/Chico-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		816AC4E01741A66D0072835E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Chico.app/Chico";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chico/Chico-Prefix.pch";
+				INFOPLIST_FILE = "ChicoTests/ChicoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		816AC4E11741A66D0072835E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Chico.app/Chico";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Chico/Chico-Prefix.pch";
+				INFOPLIST_FILE = "ChicoTests/ChicoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		816AC49C1741A66C0072835E /* Build configuration list for PBXProject "Chico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816AC4DA1741A66D0072835E /* Debug */,
+				816AC4DB1741A66D0072835E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		816AC4DC1741A66D0072835E /* Build configuration list for PBXNativeTarget "Chico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816AC4DD1741A66D0072835E /* Debug */,
+				816AC4DE1741A66D0072835E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		816AC4DF1741A66D0072835E /* Build configuration list for PBXNativeTarget "ChicoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816AC4E01741A66D0072835E /* Debug */,
+				816AC4E11741A66D0072835E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 816AC4991741A66C0072835E /* Project object */;
+}
